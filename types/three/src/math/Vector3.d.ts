@@ -45,6 +45,7 @@ export class Vector3 implements Vector {
      * Sets value of this vector.
      */
     set(x: number, y: number, z: number): this;
+    set(vector3: Vector3): this;
 
     /**
      * Sets all values of this vector.
